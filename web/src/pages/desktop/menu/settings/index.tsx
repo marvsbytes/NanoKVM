@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import { useSetAtom } from 'jotai';
 import {
   BadgeInfoIcon,
+  CableIcon,
   CircleArrowUpIcon,
   NetworkIcon,
   PaletteIcon,
@@ -25,6 +26,7 @@ import { About } from './about';
 import { Account } from './account';
 import { Appearance } from './appearance';
 import { Device } from './device';
+import { KvmSwitch } from './kvmswitch';
 import { Network } from './network';
 import { Tailscale } from './tailscale';
 import { Update } from './update';
@@ -46,6 +48,7 @@ export const Settings = () => {
     { id: 'appearance', icon: <PaletteIcon size={16} />, component: <Appearance /> },
     { id: 'device', icon: <SmartphoneIcon size={16} />, component: <Device /> },
     { id: 'network', icon: <NetworkIcon size={16} />, component: <Network /> },
+    { id: 'kvmSwitch', icon: <CableIcon size={16} />, component: <KvmSwitch /> },
     {
       id: 'tailscale',
       icon: <TailscaleIcon />,
