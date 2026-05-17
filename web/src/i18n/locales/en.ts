@@ -485,6 +485,9 @@ const en = {
         logoutDesc: 'Are you sure you want to logout?',
         okBtn: 'Yes',
         cancelBtn: 'No'
+      },
+      kvmSwitch: {
+        title: 'KVM Switch'
       }
     },
     picoclaw: {
@@ -619,6 +622,45 @@ const en = {
     menu: {
       collapse: 'Collapse Menu',
       expand: 'Expand Menu'
+    },
+    kvmSwitch: {
+      title: 'KVM Switch',
+      status: {
+        connected: 'Connected',
+        disconnected: 'Disconnected'
+      },
+      connect: {
+        title: 'Connect to KVM Switch',
+        model: 'Device Model',
+        host: 'IP Address / Hostname',
+        hostPlaceholder: '192.168.1.100',
+        port: 'TCP Port',
+        portPlaceholder: '5000',
+        portCount: 'Number of Ports',
+        portCountPlaceholder: '8',
+        connectBtn: 'Connect',
+        connecting: 'Connecting...',
+        disconnectBtn: 'Disconnect',
+        disconnecting: 'Disconnecting...',
+        failed: 'Connection failed',
+        infoModel: 'Model',
+        infoHost: 'Host',
+        infoTcpPort: 'TCP Port',
+        infoPortCount: 'Port Count'
+      },
+      ports: {
+        title: 'Port Names',
+        description: 'Customize the label shown for each port in the menu.',
+        portLabel: 'Port {{portNum}}',
+        namePlaceholder: 'Port {{portNum}}',
+        save: 'Save',
+        saved: 'Saved',
+        saveFailed: 'Save failed',
+        unsaved: 'Unsaved changes'
+      },
+      models: {
+        tesmart: 'TESmart'
+      }
     }
   }
 };

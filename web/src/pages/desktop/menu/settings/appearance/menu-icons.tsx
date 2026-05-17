@@ -6,6 +6,7 @@ import {
   FileJsonIcon,
   MaximizeIcon,
   NetworkIcon,
+  CableIcon,
   PowerIcon,
   TerminalSquareIcon,
   XIcon
@@ -28,6 +29,7 @@ export const MenuIcons = () => {
     { key: 'script', icon: <FileJsonIcon size={16} /> },
     { key: 'wol', icon: <NetworkIcon size={16} /> },
     { key: 'picoclaw', icon: <Robot size={16} /> },
+    { key: 'kvmSwitch', icon: <CableIcon size={16} /> },
     { key: 'power', icon: <PowerIcon size={16} /> },
     { key: 'fullscreen', icon: <MaximizeIcon size={16} />, label: 'fullscreen.toggle' },
     { key: 'collapse', icon: <XIcon size={16} />, label: 'menu.collapse' }

@@ -40,6 +40,7 @@ func server(r *gin.Engine) {
 	wsRouter(r)
 	downloadRouter(r)
 	extensionsRouter(r)
+	kvmswitchRouter(r)
 }
 
 func LoopbackHTTPAllowedPaths() []string {
